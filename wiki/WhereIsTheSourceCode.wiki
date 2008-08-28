@@ -1,0 +1,19 @@
+#summary Source is hosted at git hub
+
+=Hosting Notes=
+OMAP-U-Boot-Utils is hosted at two places:
+  * *Source Code hosting*: Git Hub http://github.com/nmenon/omap-u-boot-utils/
+  * *Binaries and Documentation*: code.google.com - this site.
+
+=Access Source Code=
+Considering that most U-Boot and Linux kernel developers are git users, the source is hosted at github. There are two access paths:
+  * http protocol - for folks behind restrictive firewalls: http://github.com/nmenon/omap-u-boot-utils.git
+  * git protocol: git://github.com/nmenon/omap-u-boot-utils.git
+To get a copy of the code, it is as simple as:
+{{{
+git-clone git/http link
+}}}
+*NOTE*:
+  * Users with proxy need to remember to setup their http_proxy variable. Here is more information: http://ubuntuforums.org/showthread.php?t=1575
+  * More on using Git: http://github.com/guides/home
+  
